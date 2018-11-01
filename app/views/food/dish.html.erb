@@ -1,0 +1,6 @@
+<h1>Names of dishes</h1>
+<% @dish.each do |e| %>
+  <p>Name: <%= e.name %></p>
+  <p>Rating:<%= e.rating %></p>
+  <p>Veg:<%= e.veg %></p>
+  <% end %>
